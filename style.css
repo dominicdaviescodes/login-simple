@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  /* set flex on the parent */
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  /* horizontally */
+  align-items: center;
+  /* needs height set */
+  justify-content: center;
+}
+
+.block-labels {
+  display: block;
+  font-size: 1.2rem;
+  margin: 1rem 0;
+}
