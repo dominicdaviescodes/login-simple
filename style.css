@@ -5,6 +5,7 @@ body {
 
 h1 {
   text-align: center;
+  margin-bottom: 40px;
 }
 
 .container {
@@ -22,4 +23,31 @@ h1 {
   display: block;
   font-size: 1.2rem;
   margin: 1rem 0;
+}
+
+input {
+  font-size: 1.5rem;
+  padding: 5px;
+}
+
+#sign-btn {
+  padding: 12px;
+  font-size: 14px;
+  width: 100%;
+  background-color: #c70039;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 15px;
+  outline: none;
+}
+
+#sign-btn:hover {
+  background-color: #f37121;
+}
+
+#login-checkbox{
+  margin: 12px 0;
+  color: #333;
+  font-size: 0.9rem;
 }
